@@ -1,0 +1,85 @@
+[0.017s] Invoking command in '/home/mayudong/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_service:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_client:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mayudong/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/mayudong/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/mayudong/ros2_ws/install/tutorial_interfaces
+[0.030s] CMake Warning (dev) in CMakeLists.txt:
+[0.030s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.030s]   contain a literal, direct call to the project() command.  Add a line of
+[0.030s]   code such as
+[0.030s] 
+[0.030s]     project(ProjectName)
+[0.030s] 
+[0.030s]   near the top of the file, but after cmake_minimum_required().
+[0.031s] 
+[0.031s]   CMake is pretending there is a "project(Project)" command on the first
+[0.031s]   line.
+[0.031s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.031s] 
+[0.099s] -- The C compiler identification is GNU 9.4.0
+[0.161s] -- The CXX compiler identification is GNU 9.4.0
+[0.168s] -- Check for working C compiler: /usr/bin/cc
+[0.236s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.237s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.314s] -- Detecting C compile features
+[0.314s] -- Detecting C compile features - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++
+[0.400s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.401s] -- Detecting CXX compiler ABI info
+[0.490s] -- Detecting CXX compiler ABI info - done
+[0.502s] -- Detecting CXX compile features
+[0.503s] -- Detecting CXX compile features - done
+[0.509s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.544s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.545s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.800s] CMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.800s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.800s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.800s]   set the policy and suppress this warning.
+[0.800s] 
+[0.801s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.801s]   Since the policy is not set the OLD behavior will be used.
+[0.801s] Call Stack (most recent call first):
+[0.801s]   /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[0.801s]   /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[0.801s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.801s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[0.801s]   /opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.801s]   /opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.802s]   /opt/ros/foxy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.802s]   /opt/ros/foxy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+[0.802s]   /opt/ros/foxy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.802s]   /opt/ros/foxy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+[0.802s]   CMakeLists.txt:1 (find_package)
+[0.802s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.802s] 
+[0.802s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.802s]   if given arguments:
+[0.803s] 
+[0.803s]     "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"
+[0.803s] 
+[0.803s]   Unknown arguments specified
+[0.803s] Call Stack (most recent call first):
+[0.803s]   /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[0.803s]   /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[0.803s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.804s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[0.804s]   /opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.804s]   /opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.804s]   /opt/ros/foxy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.804s]   /opt/ros/foxy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+[0.804s]   /opt/ros/foxy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.804s]   /opt/ros/foxy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+[0.804s]   CMakeLists.txt:1 (find_package)
+[0.804s] 
+[0.804s] 
+[0.804s] CMake Warning (dev) in CMakeLists.txt:
+[0.804s]   No cmake_minimum_required command is present.  A line of code such as
+[0.804s] 
+[0.805s]     cmake_minimum_required(VERSION 3.16)
+[0.805s] 
+[0.805s]   should be added at the top of the file.  The version specified may be lower
+[0.805s]   if you wish to support older CMake versions for this project.  For more
+[0.805s]   information run "cmake --help-policy CMP0000".
+[0.805s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.805s] 
+[0.805s] -- Configuring incomplete, errors occurred!
+[0.805s] See also "/home/mayudong/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.807s] Invoked command in '/home/mayudong/ros2_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_service:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_client:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mayudong/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mayudong/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/mayudong/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/mayudong/ros2_ws/install/tutorial_interfaces

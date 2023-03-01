@@ -1,0 +1,17 @@
+/home/mayudong/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+/home/mayudong/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+/home/mayudong/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml

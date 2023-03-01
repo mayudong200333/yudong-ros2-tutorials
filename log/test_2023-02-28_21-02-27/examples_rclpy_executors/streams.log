@@ -1,0 +1,21 @@
+[0.210s] Invoking command in '/home/mayudong/ros2_ws/src/examples/rclpy/executors': AMENT_PREFIX_PATH=/home/mayudong/ros2_ws/install/examples_rclpy_executors:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/mayudong/ros2_ws/build/examples_rclpy_executors/pytest.xml --junit-prefix=examples_rclpy_executors -o cache_dir=/home/mayudong/ros2_ws/build/examples_rclpy_executors/.pytest_cache PYTHONPATH=/home/mayudong/ros2_ws/build/examples_rclpy_executors:/home/mayudong/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.669s] [1m============================= test session starts ==============================[0m
+[0.669s] platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+[0.669s] cachedir: /home/mayudong/ros2_ws/build/examples_rclpy_executors/.pytest_cache
+[0.672s] rootdir: /home/mayudong/ros2_ws/src/examples/rclpy, inifile: pytest.ini
+[0.673s] plugins: ament-xmllint-0.9.7, ament-flake8-0.9.7, launch-testing-ros-0.11.7, ament-lint-0.9.7, ament-pep257-0.9.7, launch-testing-0.10.10, ament-copyright-0.9.7, colcon-core-0.12.1, cov-2.8.1
+[0.738s] [1mcollecting ... [0m[1m
+[0.738s] collected 3 items                                                              [0m
+[0.738s] 
+[0.766s] test/test_copyright.py [32m.[0m[36m                                                 [ 33%][0m
+[0.942s] test/test_flake8.py [32m.[0m[36m                                                    [ 66%][0m
+[0.993s] test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+[0.994s] 
+[0.994s] [33m=============================== warnings summary ===============================[0m
+[0.994s] /usr/lib/python3/dist-packages/pydocstyle/config.py:6
+[0.994s]   Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+[0.996s] 
+[0.997s] -- Docs: https://docs.pytest.org/en/latest/warnings.html
+[1.001s] - generated xml file: /home/mayudong/ros2_ws/build/examples_rclpy_executors/pytest.xml -
+[1.002s] [33m[1m===================== 3 passed, 1 warnings in 0.36 seconds =====================[0m
+[1.119s] Invoked command in '/home/mayudong/ros2_ws/src/examples/rclpy/executors' returned '0': AMENT_PREFIX_PATH=/home/mayudong/ros2_ws/install/examples_rclpy_executors:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/mayudong/ros2_ws/build/examples_rclpy_executors/pytest.xml --junit-prefix=examples_rclpy_executors -o cache_dir=/home/mayudong/ros2_ws/build/examples_rclpy_executors/.pytest_cache PYTHONPATH=/home/mayudong/ros2_ws/build/examples_rclpy_executors:/home/mayudong/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
